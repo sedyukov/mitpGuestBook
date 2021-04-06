@@ -88,6 +88,9 @@ header{
 .review__3{
     width: 3%;
 }
+.window__link{
+    width: 40px;
+}
 .topbutton {
     width: 55px;
     height: 55px;
@@ -106,7 +109,7 @@ header{
 }
 .topbutton:hover {background:#829DFF;}
 .button__add{
-    margin: 16px;
+    padding: 16px;
 }
 #window__add {
     width: 550px;
@@ -166,13 +169,35 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+.window__button__container{
+    width: 375px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.window__link{
+    margin-left: 116px;
+}
 .window__add-button{
     border: none;
     width: 157px;
     height: 31px;
     margin-top: 10px;
     background-color: #6284FB;
-    margin-left: 334px;
+    margin-left: 0px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.window__add-button--cancel{
+    border: none;
+    width: 157px;
+    height: 31px;
+    margin-top: 10px;
+    background-color: #C17C7C;
+    margin-left: 0px;
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -181,7 +206,7 @@ header{
 }
 .window__add-button:hover {background:#829DFF;}
 
-
+.window__add-button--cancel:hover {background:#C28888;}
 
 
 

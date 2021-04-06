@@ -131,9 +131,15 @@
         <p class="window__add-h">Добавление записи</p>
         <input type="text" size="50" placeholder="Имя, Фамилия" class="window__add-name">
         <textarea name="review__text" cols="20" rows="3" class="window__add-text" placeholder="Текст отзыва"></textarea>
-        <a href=""><button class="window__add-button">Опубликовать</button></a>
+        <!-- <div class="window__link"><a href=""><button class="window__add-button">Опубликовать</button></a></div> -->
+        <div class="window__button__container">
+        	<a class="window__link" href=""><button class="window__add-button">Опубликовать</button></a>
+        	<a class="window__link" href=""><button class="window__add-button--cancel">Отменить</button></a>
+        </div>
+       <!--  <a class="window__link"><button class="window__add-button">Опубликовать</button></a>
+        <a class="window__link"><button class="window__add-button">Опубликовать</button></a> -->
     </div>
-    <a href="#window__add" title="Вернуться к началу" class="topbutton">
+    <a href="#window__add" title="Добавить" class="topbutton">
         <img class="button__add" src="images/add.svg" alt="edit">
     </a>
     
